@@ -1,0 +1,24 @@
+A PROGRAM WHICH DISPLAYS ALL THE PENDENT VERTICES AT A GIVEN LEVEL IN A TREE GIVEN THAT THE MATRIX PROVIDED IS AN ADJACENCY MATRIX
+
+USE OF THE FOLLOWING PROGRAM :
+
+●	Trees can be used to store Data in an Inheritable Hierarchical Structures.Like how an operating System uses a tree for directories,files and folders in its file management System.
+
+●	They are Easy to search and sort using standard traversal Algorithms 
+
+
+●	The program done in this assignment can give access to all the pendent vertices at any given level this has its advantages:
+1.	For people who want to access the last file or files (or nodes) in a given directory (or a given level).
+2.	It uses a hierarchical Structure From the adjacency Matrix of a given tree
+
+●	What is a pendent Vertice?
+1.	The above program lets you access the pendent vertices of a given Adjacency Matrix 
+2.	A vertex of degree one is called a pendent vertex,and the edge incident to it is called a pendent Edge
+3.	Every tree on two or more vertices has atleast one pendent vertice.
+
+●	In companies which uses a lot of directories and lot of hierarchical data structures sometimes a company might want to access information only at the end of the hierarchal structure or and the end of the hierarchical directories hence using the theory of the pendent vertices this can be done using the program .
+
+●	The Program uses 3 Dimensional Array where array[level][row][column] hence as we can se the program gives us the pendent vertices of any level or directory hence it can be used to gain direct access
+
+
+Like Linked Lists and unlike Arrays, Pointer implementation of trees don’t have an upper limit on number of nodes as nodes are linked using pointers.
